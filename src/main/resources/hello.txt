@@ -1,0 +1,8 @@
+hello ${name}
+
+${user.home}
+
+${user.work.dir}
+
+\@name@
+

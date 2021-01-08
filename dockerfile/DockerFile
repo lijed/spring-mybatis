@@ -1,0 +1,5 @@
+FROM openjdk:8
+MAINTAINER itcrazy2016
+LABEL name="springboot-mybatis" version="1.0" author="itcrazy2016"
+COPY springboot-mybatis-0.0.1-SNAPSHOT.jar springboot-mybatis.jar
+CMD ["java","-jar","springboot-mybatis.jar"]
